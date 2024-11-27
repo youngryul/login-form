@@ -1,7 +1,7 @@
 interface FormInputProps {
     type: string;
     placeholder: string;
-    errors?: string;
+    errors?: string[];
     name: string;
 }
 
